@@ -1,0 +1,675 @@
+@import'../../scss/main.scss';
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&family=Montserrat:ital,wght@0,300;0,400;1,200;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&family=Montserrat:ital,wght@0,300;0,400;1,200;1,300;1,500&family=Raleway:wght@300&display=swap');
+
+.headerbackground {
+    width: 100%;
+    height: 100vh;
+    // border: $border;
+    background-image: url(../../assets/images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    .container {
+        width: 83%;
+        // border: $border;
+        margin: 0 auto;
+
+        header {
+            width: 100%;
+            height: 900px;
+            // border: $border;
+
+            .header {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                height: 20%;
+                // border: $border;
+
+                .logo {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 20%;
+                    height: 100%;
+                    // border: $border;
+
+                    img {
+                        width: 60%;
+                    }
+
+                }
+
+                .nav {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 50%;
+                    height: 100%;
+                    // border: $border;
+
+                    ul {
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        width: 70%;
+                        height: 100%;
+
+                        li {
+                            font-family: 'M PLUS 1 Code', monospace;
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            list-style: none;
+                        }
+                    }
+
+                    .icons {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 25px;
+                        width: 30%;
+                        height: 100%;
+
+                        .profile {
+                            width: 30px;
+                            height: 20px;
+                        }
+
+                        .box {
+                            width: 30px;
+                            height: 30px;
+                        }
+
+
+                    }
+                }
+            }
+
+            .text {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 50px;
+                width: 100%;
+                height: 80%;
+                // border: $border;
+
+                .card1 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    width: 370px;
+                    height: 530px;
+                    // border: $border;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .paginate {
+                        display: flex;
+                        width: 100%;
+                        height: 11%;
+                        // border: $border;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        h4 {
+                            font-family: 'M PLUS 1 Code', monospace;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 22px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                        }
+
+                        .right {
+                            width: 40px;
+                            height: 30px;
+                        }
+                    }
+                }
+
+                .card2 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 70px 30px;
+                    width: 370px;
+                    height: 530px;
+                    // border: $border;
+
+                    h1 {
+                        font-family: 'Raleway', sans-serif;
+                        font-size: 58px;
+                        font-weight: 500;
+                        line-height: 68px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+
+                    p {
+                        margin-top: 30px;
+                        font-family: 'M PLUS 1 Code', monospace;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        letter-spacing: 0em;
+                        text-align: center;
+                    }
+
+                    button {
+                        margin-top: 20px;
+                        width: 141px;
+                        height: 41px;
+                        top: 342px;
+                        left: 612px;
+                        border-radius: 2px;
+                        border: 1px;
+                        background: white;
+                        border: 1px solid #B3BAC1;
+                        font-family: 'M PLUS 1 Code', monospace;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 22px;
+                        letter-spacing: 0em;
+                        color: #122947;
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: #B3BAC1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.nextone {
+    width: 100%;
+    height: 800px;
+    // border: $border;
+
+    .container {
+        width: 83%;
+        // border: $border;
+        margin: 0 auto;
+
+        .cards {
+
+            width: 100%;
+            height: 780px;
+            // border: $border;
+
+            .pagination {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                // border: $border;
+                width: 100%;
+                height: 85%;
+            }
+
+            .pag {
+                display: flex;
+                justify-content: end;
+                gap: 10px;
+                width: 100%;
+                height: 15%;
+                // border: $border;
+
+                .left {
+                    cursor: pointer;
+                    margin-right: 100px;
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+
+            .cardlar1 {
+                width: 350px;
+                height: 470px;
+                // border: $border;
+                background-image: url(../../assets/images/third.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+
+            }
+
+            .cardlar2 {
+                width: 350px;
+                height: 470px;
+                // border: $border;
+                background-image: url(../../assets/images/fourth.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+
+            .cardlar3 {
+                width: 350px;
+                height: 470px;
+                // border: $border;
+                background-image: url(../../assets/images/fifth.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+
+            .texts {
+                padding: 120px 0;
+                width: 350px;
+                height: 500px;
+                margin-left: 75px;
+                // border: $border;
+
+                h2 {
+                    width: 204px;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 40px;
+                    font-weight: 500;
+                    line-height: 42px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+
+                p {
+                    margin-top: 25px;
+                    font-family: 'M PLUS 1 Code', monospace;
+                    font-size: 22px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+
+                button {
+                    margin-top: 25px;
+                    width: 175px;
+                    height: 51px;
+                    top: 1005px;
+                    left: 98px;
+                    border-radius: 2px;
+                    border: 1px;
+                    background: white;
+                    border: 1px solid #B3BAC1;
+                    font-family: 'M PLUS 1 Code', monospace;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 22px;
+                    letter-spacing: 0em;
+                    color: #122947;
+
+                    &:hover {
+                        background-color: #B3BAC1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.spring {
+    width: 100%;
+    height: 560px;
+    // border: $border;
+    background-image: url(../../assets/images/background1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    .container {
+        width: 83%;
+        // border: $border;
+        margin: 0 auto;
+
+        .flower {
+            display: flex;
+            justify-content: end;
+            width: 100%;
+            height: 557px;
+
+            .rightplace {
+                padding: 130px 180px;
+                width: 50%;
+                height: 100%;
+                // border: $border;
+
+                h1 {
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 32px;
+                    font-weight: 500;
+                    line-height: 40px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+
+                p {
+                    margin-top: 35px;
+                    font-family: 'M PLUS 1 Code', monospace;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+
+                button {
+                    margin-top: 35px;
+                    width: 141px;
+                    height: 41px;
+                    top: 1557px;
+                    left: 798px;
+                    border-radius: 2px;
+                    border: 1px;
+                    background: none;
+                    border: 1px solid #B3BAC1;
+                    font-family: 'M PLUS 1 Code', monospace;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 22px;
+                    letter-spacing: 0em;
+
+                    &:hover {
+                        background-color: #B3BAC1;
+
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+.individual {
+    width: 100%;
+    margin-top: 150px;
+
+    .container {
+        margin: 0 auto;
+        width: 83%;
+
+        .personal {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 800px;
+            // border: $border;
+
+            .card4 {
+                position: relative;
+                display: flex;
+                margin-left: 75px;
+                width: 850px;
+                height: 700px;
+                background: #F4F1ED;
+
+                // border: $border;
+                .textlar {
+                    padding: 100px 100px;
+                    width: 70%;
+                    height: 100%;
+                    // border: $border;
+
+                    h1 {
+                        font-family: 'Raleway', sans-serif;
+                        font-size: 52px;
+                        font-weight: 500;
+                        line-height: 42px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+
+                    h3 {
+                        font-family: 'M PLUS 1 Code', monospace;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 26px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+
+                    p {
+                        margin-top: 50px;
+                        font-family: 'M PLUS 1 Code', monospace;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 30px;
+                        letter-spacing: 0em;
+                    }
+
+                    button {
+                        margin-top: 50px;
+                        width: 250px;
+                        height: 55px;
+                        background: none;
+                        border: 1px solid #B3BAC1;
+                        font-family: 'M PLUS 1 Code', monospace;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 22px;
+                        letter-spacing: 0em;
+
+                    }
+
+                    button:hover {
+                        background-color: #B3BAC1;
+                    }
+                }
+
+                .rasm {
+                    margin-top: 50px;
+                    margin-left: 595px;
+                    position: absolute;
+                    width: 900px;
+                    height: 600px;
+                    // border: $border;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.history {
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+    // border: $border;
+    background-image: url(../../../public/background2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    .container {
+        width: 83%;
+        margin: 0 auto;
+
+        .boychechak {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            width: 100%;
+            height: 599px;
+            // border: $border;
+
+            h1 {
+                font-family: 'Raleway', sans-serif;
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 40px;
+                letter-spacing: 0em;
+                text-align: center;
+            }
+
+            button {
+                width: 180px;
+                height: 45px;
+                background-color: white;
+                border: 1px solid #B3BAC1;
+                font-family: 'M PLUS 1 Code', monospace;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0em;
+            }
+
+            button:hover {
+                background-color: #B3BAC1;
+            }
+        }
+    }
+}
+
+.follow {
+    margin-top: 100px;
+    width: 100%;
+    height: 800px;
+    // border: $border;
+
+    .container {
+        width: 83%;
+        margin: 0 auto;
+
+        .follower {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+            height: 799px;
+            // border: $border;
+
+            .section {
+                width: 50%;
+                height: 80%;
+                // border: $border;
+
+                img {
+                    width: 33.3%;
+                    height: 50%;
+                }
+
+
+            }
+
+            .section1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 30px;
+                padding: 0 200px;
+                width: 50%;
+                height: 80%;
+                // border: $border;
+
+                h1 {
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 40px;
+                    font-weight: 500;
+                    line-height: 42px;
+                    letter-spacing: 0em;
+                }
+
+                p {
+                    font-family: 'M PLUS 1 Code', monospace;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                }
+
+                button {
+                    width: 180px;
+                    height: 44px;
+                    background-color: white;
+                    border: 1px solid #B3BAC1;
+                    font-family: 'M PLUS 1 Code', monospace;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 22px;
+                    letter-spacing: 0em;
+
+                }
+
+                button:hover {
+                    background-color: #B3BAC1;
+                }
+            }
+        }
+    }
+}
+
+
+.textlarr {
+    padding: 100px 100px;
+    width: 70%;
+    height: 100%;
+    // border: $border;
+
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 52px;
+        font-weight: 500;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    h3 {
+        margin-top: 30px;
+        font-family: 'M PLUS 1 Code', monospace;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+    }
+
+    p {
+        font-family: 'M PLUS 1 Code', monospace;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+    }
+
+    button {
+        margin-top: 50px;
+        width: 250px;
+        height: 55px;
+        background: none;
+        border: 1px solid #B3BAC1;
+        font-family: 'M PLUS 1 Code', monospace;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+
+    }
+
+    button:hover {
+        background-color: #B3BAC1;
+    }
+
+    .socialmedia {
+        display: flex;
+        margin-top: 25px;
+        gap: 10px;
+
+        .socialmedias {
+            width: 30px;
+            height: 25px;
+        }
+    }
+}
+
+.active {
+    color: red;
+}

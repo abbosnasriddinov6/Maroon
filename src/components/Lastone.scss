@@ -1,0 +1,319 @@
+@import'../scss/main.scss';
+
+.last {
+    width: 100%;
+    height: 600px;
+    // border: $border;
+
+    .container {
+        width: 83%;
+        margin: 0 auto;
+
+        .laston {
+            width: 100%;
+            height: 599px;
+            // border: $border;
+
+            .yozuv {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 15%;
+                // border: $border;
+
+                h1 {
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 32px;
+                    font-weight: 500;
+                    line-height: 40px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+            }
+
+
+
+            .lastcards1 {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                height: 75%;
+                // border: $border;
+
+                .lastcard1 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: end;
+                    background-image: url(../assets/images/tenth.png);
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    width: 350px;
+                    height: 430px;
+                    // border: $border;
+
+                    .hlar {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 95%;
+                        height: 5%;
+                        // border: $border;
+                        margin: 0 auto;
+
+                        h3 {
+                            font-family: Raleway;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 23px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                        }
+
+                        h4 {
+                            font-family: Raleway;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 23px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                        }
+
+
+
+                    }
+
+                    .plar {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 95%;
+                        height: 7%;
+                        // border: $border;
+                        margin: 0 auto;
+
+                        p {
+                            font-family: Mplus 1p;
+                            font-size: 13px;
+                            font-weight: 400;
+                            line-height: 19px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            color: #9A9DA0;
+                        }
+
+                    }
+                }
+
+                .lastcard2 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: end;
+                    background-image: url(../assets/images/thirteenth.png);
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    width: 350px;
+                    height: 430px;
+                    // border: $border;
+
+                    .hlar {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 95%;
+                        height: 5%;
+                        // border: $border;
+                        margin: 0 auto;
+
+                        h3 {
+                            font-family: Raleway;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 23px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                        }
+
+                        h4 {
+                            font-family: Raleway;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 23px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                        }
+
+
+
+                    }
+
+                    .plar {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 95%;
+                        height: 7%;
+                        // border: $border;
+                        margin: 0 auto;
+
+                        p {
+                            font-family: Mplus 1p;
+                            font-size: 13px;
+                            font-weight: 400;
+                            line-height: 19px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            color: #9A9DA0;
+                        }
+
+                    }
+                }
+
+                .lastcard3 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: end;
+                    background-image: url(../assets/images/tweleveth.png);
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    width: 350px;
+                    height: 430px;
+                    // border: $border;
+
+                    .hlar {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 95%;
+                        height: 5%;
+                        // border: $border;
+                        margin: 0 auto;
+
+                        h3 {
+                            font-family: Raleway;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 23px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                        }
+
+                        h4 {
+                            font-family: Raleway;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 23px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                        }
+
+
+
+                    }
+
+                    .plar {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 95%;
+                        height: 7%;
+                        // border: $border;
+                        margin: 0 auto;
+
+                        p {
+                            font-family: Mplus 1p;
+                            font-size: 13px;
+                            font-weight: 400;
+                            line-height: 19px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            color: #9A9DA0;
+                        }
+
+                    }
+                }
+
+                .lastcard4 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: end;
+                    background-image: url(../assets/images/eleventh.png);
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    width: 350px;
+                    height: 430px;
+                    // border: $border;
+
+                    .hlar {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 95%;
+                        height: 5%;
+                        // border: $border;
+                        margin: 0 auto;
+
+                        h3 {
+                            font-family: Raleway;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 23px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                        }
+
+                        h4 {
+                            font-family: Raleway;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 23px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                        }
+
+
+
+                    }
+
+                    .plar {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 95%;
+                        height: 7%;
+                        // border: $border;
+                        margin: 0 auto;
+
+                        p {
+                            font-family: Mplus 1p;
+                            font-size: 13px;
+                            font-weight: 400;
+                            line-height: 19px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            color: #9A9DA0;
+                        }
+
+                    }
+                }
+            }
+
+            .laspagi {
+                display: flex;
+                justify-content: end;
+                width: 100%;
+                height: 10%;
+                // border: $border;
+                gap: 10px;
+
+                .left {
+                    cursor: pointer;
+                    margin-right: 100px;
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+        }
+    }
+}
